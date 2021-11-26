@@ -1,0 +1,8 @@
+D:\MyCode\C#\DataAcces\Dapper\MySQLCRUD\MySqlDataAcces\bin\Debug\netstandard2.0\MySqlDataAcces.deps.json
+D:\MyCode\C#\DataAcces\Dapper\MySQLCRUD\MySqlDataAcces\bin\Debug\netstandard2.0\MySqlDataAcces.dll
+D:\MyCode\C#\DataAcces\Dapper\MySQLCRUD\MySqlDataAcces\obj\Debug\netstandard2.0\MySqlDataAcces.csprojAssemblyReference.cache
+D:\MyCode\C#\DataAcces\Dapper\MySQLCRUD\MySqlDataAcces\obj\Debug\netstandard2.0\MySqlDataAcces.AssemblyInfoInputs.cache
+D:\MyCode\C#\DataAcces\Dapper\MySQLCRUD\MySqlDataAcces\obj\Debug\netstandard2.0\MySqlDataAcces.AssemblyInfo.cs
+D:\MyCode\C#\DataAcces\Dapper\MySQLCRUD\MySqlDataAcces\bin\Debug\netstandard2.0\MySqlDataAcces.pdb
+D:\MyCode\C#\DataAcces\Dapper\MySQLCRUD\MySqlDataAcces\obj\Debug\netstandard2.0\MySqlDataAcces.dll
+D:\MyCode\C#\DataAcces\Dapper\MySQLCRUD\MySqlDataAcces\obj\Debug\netstandard2.0\MySqlDataAcces.pdb
