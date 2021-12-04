@@ -7,9 +7,8 @@ namespace MySQLCRUD
     {
         static void Main(string[] args)
         {
-            MasinaRepository masinaRep =new MasinaRepository();
-        
-            masinaRep.getAll().ForEach(masina =>Console.WriteLine(masina));
+            MasinaRepository masinaRepository=new MasinaRepository();
+            Console.WriteLine(masinaRepository.getById(6));
         }
     }
 }

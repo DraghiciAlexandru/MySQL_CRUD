@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySQLCRUD", "MySQLCRUD\MySQLCRUD.csproj", "{4955D370-7309-469C-B0F4-8D5602EAF295}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySQLCRUD", "MySQLCRUD\MySQLCRUD.csproj", "{4955D370-7309-469C-B0F4-8D5602EAF295}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySqlDataAcces", "MySqlDataAcces\MySqlDataAcces.csproj", "{568D4338-8AF7-4903-9ECA-C1EB4A3961D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySqlDataAcces", "MySqlDataAcces\MySqlDataAcces.csproj", "{568D4338-8AF7-4903-9ECA-C1EB4A3961D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{3A577F39-9BE5-49AB-924C-E1F493A5766A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{568D4338-8AF7-4903-9ECA-C1EB4A3961D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{568D4338-8AF7-4903-9ECA-C1EB4A3961D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{568D4338-8AF7-4903-9ECA-C1EB4A3961D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A577F39-9BE5-49AB-924C-E1F493A5766A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A577F39-9BE5-49AB-924C-E1F493A5766A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A577F39-9BE5-49AB-924C-E1F493A5766A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A577F39-9BE5-49AB-924C-E1F493A5766A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
