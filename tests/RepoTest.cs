@@ -18,6 +18,7 @@ namespace tests
         [Fact]
         public void testGetAll()
         {
+
             Assert.Equal(6 ,masinaRepository.getAll().Count);
 
         }
@@ -28,19 +29,32 @@ namespace tests
             Assert.NotNull(masinaRepository.getModel("m2"));
         }
 
-        /*[Fact]
+        [Fact]
         public void testCreate()
         {
             Masina masina = new Masina("m4", 2019, "rosu");
             masinaRepository.create(masina);
 
             Assert.Contains(masina, masinaRepository.getAll());
-        }*/
+
+            masinaRepository.deleteByDetails("m4", 2019, "rosu");
+        }
 
         [Fact]
         public void testGetById()
         {
             Assert.NotNull(masinaRepository.getById(6));
+        }
+
+        [Fact]
+        public void testDeleteByDetails()
+        {
+            Masina masina = new Masina("m4", 2019, "rosu");
+            masinaRepository.create(masina);
+
+            masinaRepository.deleteByDetails("m4", 2019, "rosu");
+
+            Assert.DoesNotContain(masina, masinaRepository.getAll());
         }
 
         [Fact]
@@ -55,21 +69,21 @@ namespace tests
         public void testUpdateModel()
         {
             masinaRepository.updateModelById(7, "m5");
-            Assert.Same("m5", masinaRepository.getById(7).Model);
+            Assert.Equal("m5", masinaRepository.getById(7).Model);
         }
 
         [Fact]
         public void testUpdateAn()
         {
             masinaRepository.updateAnById(10, 2020);
-            Assert.Same(2020, masinaRepository.getById(10).An);
+            Assert.Equal(2020, masinaRepository.getById(10).An);
         }
 
         [Fact]
         public void testUpdateCuloare()
         {
             masinaRepository.updateCuloareById(11, "alb");
-            Assert.Same("alb", masinaRepository.getById(11).Culoare);
+            Assert.Equal("alb", masinaRepository.getById(11).Culoare);
         }
     }
 }

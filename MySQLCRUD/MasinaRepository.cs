@@ -31,7 +31,6 @@ namespace MySQLCRUD
 
         public List<Masina> getAll()
         {
-
             string sql = "SELECT *FROM masini";
 
 
@@ -68,6 +67,13 @@ namespace MySQLCRUD
             string sql ="delete from masini where id = @id";
 
             db.SaveData(sql, new {id}, connectionString);
+        }
+
+        public void deleteByDetails(string model, int an, string culoare)
+        {
+            string sql = "delete from masini where model=@model && an=@an && culoare=@culoare";
+
+            db.SaveData(sql, new {model, an, culoare}, connectionString);
         }
 
         public void updateModelById(int id, string model)
